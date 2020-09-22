@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import TinderCards from './TinderCards';
 import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 
 import './App.css';
@@ -14,7 +15,7 @@ function App() {
             <h1>I am the chatpag</h1>
           </Route>
           <Route path="/">
-            <h1>I am the homepage</h1>
+            <TinderCards />
           </Route>
         </Switch>
       </Router>
